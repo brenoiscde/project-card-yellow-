@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Figtree", sans-serif;
+}
+.elementos{
+    padding: 25px;
+}
+.foto-card{
+    border-radius: 10px;
+    width: 380px;
+}
+.botao-aprendendo{
+    background-color:hsl(47, 88%, 63%);
+    margin: 15px 0 15px 0;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 120px;
+}
+.publicado{
+    margin: 15px 0 15px 0;
+    font-family: "Figtree";
+}
+.titulo{
+    margin: 0 0 15px;
+    font-size: 28px;
+}
+.paragrafo{
+    margin: 0 0 25px;
+    color: hsl(0, 0%, 40%)
+}
+img, .nome{
+    display: inline-block;
+}
+.minha-foto{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.card{
+    border: 1px solid black;
+    border-radius: 16px;
+    background: white;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 10px 10px 0px #000 ;
+    margin: 7%;
+   
+}
+
+.titulo:hover{
+    color:hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 20px 20px 0px #000;
+}
